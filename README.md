@@ -51,4 +51,4 @@ Edit `.env`:
 - **`McpError: Session terminated`**: the URL is wrong, usually a missing `/mcp` path, or the server isn't running.
 - **`Anthropic authentication failed: no API key...`**: set `ANTHROPIC_API_KEY` in `.env`. You can ignore the LangSmith gateway variables mentioned in that message.
 - **`KeyError: 'MCP_SERVER_URL'`**: `.env` is missing or the variable isn't set.
-- ** `Client error: '401 Unauthorized'`**: `.env` is missing MCP_SERVER_TOKEN or the variable isn't set.
+- **`Client error: '401 Unauthorized'`**: `.env` is missing MCP_SERVER_TOKEN or the variable isn't set.
